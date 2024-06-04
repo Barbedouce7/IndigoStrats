@@ -5,50 +5,101 @@
    <link rel='stylesheet' href='styles/style.css' media='all' />
 </head>
 <body>
+<nav>
+  <select id="langSelect" class="btn1-grad">
+            <option value="default">English</option>
+            <option value="fr">Français</option>
+  </select>
+</nav>
 <div id="container">
 <header>
    <img src="images/indigo-logo.png" />
-   <h1>Easiest strategy n°2 : </h1>
+   <h1>Easiest strategy n°2
+   <!--{fr}Stratégie simple n°2-->
+   </h1>
 </header>
-<h3>How to long ADA using iUSD</h3>
+<h3>How to long ADA using iUSD
+<!--{fr}Parier à la hausse sur ADA en utilisant iUSD-->
+</h3>
 <section>
-<h2>Step 1 :</h2><span class="mint"></span>
+<h2>Step 1 :
+<!--{fr}Étape 1 :-->
+</h2><span class="mint"></span>
 <p>
-Mint iUSD from Indigo with ADA as collateral.</p>
+Mint iUSD from Indigo with ADA as collateral.
+<!--{fr}Minter des iUSD depuis Indigo avec ADA en collatéral.-->
+</p>
 </section>
 <div class="arrow"></div>
 <ul>
-   <li>Earn ADA from Stake Pool Rewards</li>
+   <li>Earn ADA from Stake Pool Rewards
+   <!--{fr}Intérêts de staking en ADA via votre StakePool-->
+   </li>
 </ul>
 
 <section>
-<h2>Step 2 :</h2><span class="swap"></span>
-<p>Swap iUSD to ADA using the "Swap Tokens" tab in the Indigo web app.</p>
+<h2>Step 2 :
+<!--{fr}Étape 2 :--></h2><span class="swap"></span>
+<p>Swap iUSD to ADA using the "Swap Tokens" tab in the Indigo web app.
+<!--{fr}Échangez les iUSD contre des ADA en utilisant l'onglet "Swap Tokens"--></p>
 </section>
 <div class="arrow"></div>
 <ul>
-   <li>Earn ADA from Stake Pool Rewards</li>
+   <li>Earn ADA from Stake Pool Rewards
+      <!--{fr}Intérêts de staking en ADA via votre StakePool--></li>
 </ul>
 <section>
-<h2>Step 3 :</h2><span class="wait"></span>
-<p>Wait for the ADA price to appreciate to your desired level.</p>
+<h2>Step 3 :
+<!--{fr}Étape 3 :-->
+</h2><span class="wait"></span>
+<p>Wait for the ADA price to appreciate to your desired level.
+<!--{fr}Attendez que le prix de ADA atteigne votre prix cible.-->
+</p>
 </section>
 <div class="arrow"></div>
 <section>
-<h2>Step 4 :</h2><span class="swap"></span>
-<p>Swap ADA back to iUSD using the "Swap Tokens" tab in the Indigo web app.</p>
+<h2>Step 4 :
+<!--{fr}Étape 4 :-->
+</h2><span class="swap"></span>
+<p>Swap ADA back to iUSD using the "Swap Tokens" tab in the Indigo web app.
+<!--{fr}Échangez les ADA contre des iUSD-->
+</p>
 </section>
 <div class="arrow"></div>
 <section>
-<h2>Step 5 :</h2><span class="close"></span>
-<p>Close the CDP by burning the amount of iUSD borrowed.</p>
+<h2>Step 5 :
+<!--{fr}Étape 5 :-->
+</h2><span class="close"></span>
+<p>Close the CDP by burning the amount of iUSD borrowed.
+<!--{fr}Fermez le CDP en détruisant le montant d'iUSD empruntés.-->
+</p>
 </section>
 
 <footer>
-   <p>This content is for educational purpose only <br />and does not constitute an investment advice.</p>
+   <p>This content is for educational purpose only
+   <!--{fr}Ce contenu est à but éducatif seulement, -->
+   <br />and does not constitute an investment advice.
+   <!--{fr} il ne constiture pas un conseil en investissement.-->
+   </p>
     <p><img src="images/guru.png" /><br />PWG-POG</p>
 
 </footer>
 </div>
 </body>
+<script src="https://unpkg.com/translater.js@1.0.12/dist/translater.js" type="text/javascript"></script>
+<script>
+   document.addEventListener('DOMContentLoaded', () => {
+    const langSelect = document.getElementById('langSelect');
+    
+    langSelect.addEventListener('change', (event) => {
+        const selectedLang = event.target.value;
+        tran.setLang(selectedLang);
+    });
+});
+
+
+  var tran = new Translater({
+      lang:"en"
+  });
+</script>
 </html>
