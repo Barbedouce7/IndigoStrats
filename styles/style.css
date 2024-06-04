@@ -1,7 +1,7 @@
    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
    body {font-family: "Quicksand";background:#232323;
       }
-   #container {width:900px!important;margin:auto;background-image:url("../images/bg.png");padding-bottom:7px;background-size: contain;background-size: 300vh;color:white;}
+   #container {width:900px!important;margin:auto;background-image:url("../images/bg.png");padding-bottom:7px;padding-top:24px;background-size: contain;background-size: 300vh;color:white;}
    header {display:flex;flex-direction:row;}
    header img {width:300px;height:100px;margin-left:30px;}
    header h1 {padding-top:23px;padding-left:30px;}
@@ -11,7 +11,7 @@
    footer p:last-child { float:right;text-align:center;margin-top:-120px;margin-right:20px;opacity:0.6 }
    ul, li {list-style-type: none;}
    section {position:relative;z-index:4000;background-color:#1d025277;border-radius:15px;max-width:72%;padding:10px;margin-top:70px;margin-left:30px;padding-left:20px;}
-   ul li {background-color:#1D025299;border-radius: 15px;width:auto;display:inline-block;padding:10px 18px;padding-left:40px;margin-top:15px;margin-left:48%;box-shadow:0px 0px 14px 0px #5f289d;font-weight:bold;}
+   ul li {background-color:#1D025299;font-size:120%;border-radius: 15px;margin-right: 20px;width:auto;display:inline-block;padding:10px 18px;padding-left:40px;margin-top:15px;margin-left:48%;box-shadow:0px 0px 14px 0px #5f289d;font-weight:bold;}
    ul li:before {display:inline-block;content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath fill='%2363E6BE' d='M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM232 344V280H168c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V168c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H280v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z'/%3E%3C/svg%3E");
       width: 24px;
     height: 24px;
