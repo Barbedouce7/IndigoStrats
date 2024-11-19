@@ -1,6 +1,10 @@
 # Indigostrategies
 Indigo Protocol Strategies Library - Educational content
 
+Translations are in progress and can be wrong.
+Feel free to contribute.
+
+
 Long ADA with iUSD :
 - https://barbedouce7.github.io/IndigoStrats/Long-ADA-with-iUSD.html
 
